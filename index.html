@@ -207,6 +207,15 @@
     return timeA - timeB;
   }
 
+  function titoloLinkFormatter(cell) {
+    const titolo = cell.getValue();
+    if (titolo === null || titolo === undefined || titolo === "") return "";
+
+    const safeTitolo = String(titolo);
+    const url = "https://www.websim.it/azioni/screener-azioni/" + encodeURIComponent(safeTitolo);
+    return `<a href="${url}" target="_blank" rel="noopener noreferrer">${safeTitolo}</a>`;
+  }
+
   fetch("dati.json")
     .then(response => {
       if (!response.ok) throw new Error("Impossibile caricare dati.json");
@@ -248,7 +257,7 @@
           {column: "ActiveFrom", dir: "desc"}
         ],
         columns: [
-          {title: "Titolo", field: "Titolo", headerFilter: "input", frozen: true, width: 100},
+          {title: "Titolo", field: "Titolo", formatter: titoloLinkFormatter, headerFilter: "input", frozen: true, width: 100},
           {title: "Tipo", field: "Tipo", headerFilter: "input", minWidth: 190},
           {title: "Attiva dal", field: "ActiveFrom", formatter: dateFormatter, sorter: dateSorter, minWidth: 150},
           {title: "Chiusa il", field: "Closed", formatter: dateFormatter, sorter: dateSorter, minWidth: 150},
