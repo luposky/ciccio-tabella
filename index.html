@@ -170,6 +170,14 @@
         <select id="tipoFiltro">
           <option value="">Tutti i tipi</option>
         </select>
+        <label style="display:flex; align-items:center; gap:8px; padding:0 8px; border:1px solid var(--border); border-radius:8px; background:white; min-height:40px;">
+          <input id="soloConUscita1" type="checkbox" style="min-width:auto; width:auto; min-height:auto; margin:0;">
+          con Uscita 1
+        </label>
+        <label style="display:flex; align-items:center; gap:8px; padding:0 8px; border:1px solid var(--border); border-radius:8px; background:white; min-height:40px;">
+          <input id="soloConStopLoss" type="checkbox" style="min-width:auto; width:auto; min-height:auto; margin:0;">
+          con Stop loss
+        </label>
         <button id="resetFiltri">Azzera filtri</button>
         <button id="exportCsv">Esporta CSV</button>
       </div>
@@ -268,7 +276,7 @@
           layout: "fitData",
           responsiveLayout: false,
           pagination: true,
-          paginationSize: 20,
+          paginationSize: 100,
           paginationSizeSelector: [10, 20, 50, 100],
           movableColumns: true,
           placeholder: "Nessuna strategia trovata",
@@ -293,29 +301,39 @@
         });
 
         const ricerca = document.getElementById("ricerca");
+        const soloConUscita1 = document.getElementById("soloConUscita1");
+        const soloConStopLoss = document.getElementById("soloConStopLoss");
 
         function applicaFiltri() {
           const testo = ricerca.value.trim().toLowerCase();
           const tipo = select.value;
+          const richiedeUscita1 = soloConUscita1.checked;
+          const richiedeStopLoss = soloConStopLoss.checked;
 
           table.setFilter(row => {
             const matchTipo = !tipo || row.Tipo === tipo;
+            const matchUscita1 = !richiedeUscita1 || row.Uscita1TimeStamp !== null && row.Uscita1TimeStamp !== undefined && row.Uscita1TimeStamp !== "";
+            const matchStopLoss = !richiedeStopLoss || row.StopLossTimeStamp !== null && row.StopLossTimeStamp !== undefined && row.StopLossTimeStamp !== "";
             const haystack = Object.values(row)
               .filter(v => v !== null && v !== undefined)
               .join(" ")
               .toLowerCase();
 
             const matchTesto = !testo || haystack.includes(testo);
-            return matchTipo && matchTesto;
+            return matchTipo && matchUscita1 && matchStopLoss && matchTesto;
           });
         }
 
         ricerca.addEventListener("input", applicaFiltri);
         select.addEventListener("change", applicaFiltri);
+        soloConUscita1.addEventListener("change", applicaFiltri);
+        soloConStopLoss.addEventListener("change", applicaFiltri);
 
         document.getElementById("resetFiltri").addEventListener("click", () => {
           ricerca.value = "";
           select.value = "";
+          soloConUscita1.checked = false;
+          soloConStopLoss.checked = false;
           table.clearHeaderFilter();
           table.clearFilter();
         });
