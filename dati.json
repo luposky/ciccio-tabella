@@ -1,5 +1,5 @@
 {
-  "TimeStamp": "2026-08-14T14:34:56.9283369Z",
+  "TimeStamp": "2026-08-17T08:35:00.1299201Z",
   "Strategie": [
     {
       "Id": "PRT-Acquisto sulla debolezza-20260531140719",
@@ -397,8 +397,8 @@
       "Tipo": "Acquisto sulla forza",
       "ActiveFrom": "2026-08-11T06:33:41.9970582Z",
       "Closed": null,
-      "BuyTimeStamp": null,
-      "BuyPrice": null,
+      "BuyTimeStamp": "2026-08-17T07:00:00Z",
+      "BuyPrice": 10.30,
       "Uscita1TimeStamp": null,
       "Uscita1Price": null,
       "Uscita2TimeStamp": null,
