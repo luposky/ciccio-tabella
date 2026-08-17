@@ -1,5 +1,5 @@
 {
-  "TimeStamp": "2026-08-17T08:35:00.1299201Z",
+  "TimeStamp": "2026-08-17T16:35:02.3278789Z",
   "Strategie": [
     {
       "Id": "PRT-Acquisto sulla debolezza-20260531140719",
@@ -411,6 +411,21 @@
       "Titolo": "MAIRE",
       "Tipo": "Acquisto sulla debolezza",
       "ActiveFrom": "2026-08-11T16:33:59.5472235Z",
+      "Closed": null,
+      "BuyTimeStamp": null,
+      "BuyPrice": null,
+      "Uscita1TimeStamp": null,
+      "Uscita1Price": null,
+      "Uscita2TimeStamp": null,
+      "Uscita2Price": null,
+      "StopLossTimeStamp": null,
+      "StopLossPrice": null
+    },
+    {
+      "Id": "STLAM-Acquisto sulla debolezza-20260817163341",
+      "Titolo": "STLAM",
+      "Tipo": "Acquisto sulla debolezza",
+      "ActiveFrom": "2026-08-17T16:33:41.4066342Z",
       "Closed": null,
       "BuyTimeStamp": null,
       "BuyPrice": null,
