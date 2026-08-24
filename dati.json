@@ -1,5 +1,5 @@
 {
-  "TimeStamp": "2026-08-24T14:35:12.1575463Z",
+  "TimeStamp": "2026-08-24T16:34:56.942936Z",
   "Strategie": [
     {
       "Id": "PRT-Acquisto sulla debolezza-20260531140719",
@@ -274,21 +274,6 @@
     {
       "Id": "UNI-Acquisto sulla forza-20260702063343",
       "Titolo": "UNI",
-      "Tipo": "Acquisto sulla forza",
-      "ActiveFrom": "2026-07-02T06:33:43.9070893Z",
-      "Closed": null,
-      "BuyTimeStamp": null,
-      "BuyPrice": null,
-      "Uscita1TimeStamp": null,
-      "Uscita1Price": null,
-      "Uscita2TimeStamp": null,
-      "Uscita2Price": null,
-      "StopLossTimeStamp": null,
-      "StopLossPrice": null
-    },
-    {
-      "Id": "LDO-Acquisto sulla forza-20260702063343",
-      "Titolo": "LDO",
       "Tipo": "Acquisto sulla forza",
       "ActiveFrom": "2026-07-02T06:33:43.9070893Z",
       "Closed": null,
@@ -778,6 +763,21 @@
       "Uscita1Price": 11.50,
       "Uscita2TimeStamp": "2026-07-31T07:00:00Z",
       "Uscita2Price": 12.00,
+      "StopLossTimeStamp": null,
+      "StopLossPrice": null
+    },
+    {
+      "Id": "LDO-Acquisto sulla forza-20260702063343",
+      "Titolo": "LDO",
+      "Tipo": "Acquisto sulla forza",
+      "ActiveFrom": "2026-07-02T06:33:43.9070893Z",
+      "Closed": "2026-08-24T16:33:38.9021314Z",
+      "BuyTimeStamp": null,
+      "BuyPrice": null,
+      "Uscita1TimeStamp": null,
+      "Uscita1Price": null,
+      "Uscita2TimeStamp": null,
+      "Uscita2Price": null,
       "StopLossTimeStamp": null,
       "StopLossPrice": null
     }
