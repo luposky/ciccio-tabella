@@ -1,5 +1,5 @@
 {
-  "TimeStamp": "2026-08-18T16:35:07.9947502Z",
+  "TimeStamp": "2026-08-24T14:35:12.1575463Z",
   "Strategie": [
     {
       "Id": "PRT-Acquisto sulla debolezza-20260531140719",
@@ -388,8 +388,8 @@
       "Uscita1Price": null,
       "Uscita2TimeStamp": null,
       "Uscita2Price": null,
-      "StopLossTimeStamp": null,
-      "StopLossPrice": null
+      "StopLossTimeStamp": "2026-08-24T13:45:00Z",
+      "StopLossPrice": 42.00
     },
     {
       "Id": "FILA-Acquisto sulla forza-20260811063341",
