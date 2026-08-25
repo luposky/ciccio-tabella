@@ -1,5 +1,5 @@
 {
-  "TimeStamp": "2026-08-24T16:34:56.942936Z",
+  "TimeStamp": "2026-08-25T16:35:17.4650742Z",
   "Strategie": [
     {
       "Id": "PRT-Acquisto sulla debolezza-20260531140719",
@@ -414,6 +414,21 @@
       "Closed": null,
       "BuyTimeStamp": "2026-08-18T15:00:00Z",
       "BuyPrice": 4.40,
+      "Uscita1TimeStamp": null,
+      "Uscita1Price": null,
+      "Uscita2TimeStamp": null,
+      "Uscita2Price": null,
+      "StopLossTimeStamp": null,
+      "StopLossPrice": null
+    },
+    {
+      "Id": "SFER-Acquisto sulla debolezza-20260825163353",
+      "Titolo": "SFER",
+      "Tipo": "Acquisto sulla debolezza",
+      "ActiveFrom": "2026-08-25T16:33:53.074993Z",
+      "Closed": null,
+      "BuyTimeStamp": null,
+      "BuyPrice": null,
       "Uscita1TimeStamp": null,
       "Uscita1Price": null,
       "Uscita2TimeStamp": null,
