@@ -125,6 +125,14 @@
       border-bottom: 1px solid #f0f2f5;
     }
 
+    .tabulator-row.riga-verde {
+      background: #dcfce7;
+    }
+
+    .tabulator-row.riga-rossa {
+      background: #fee2e2;
+    }
+
     .status {
       display: inline-block;
       padding: 3px 8px;
@@ -280,6 +288,14 @@
           paginationSizeSelector: [10, 20, 50, 100],
           movableColumns: true,
           placeholder: "Nessuna strategia trovata",
+          rowFormatter: row => {
+            const data = row.getData();
+            const hasUscita = data.Uscita1TimeStamp || data.Uscita2TimeStamp;
+            const hasStopLoss = data.StopLossTimeStamp;
+
+            row.getElement().classList.toggle("riga-verde", Boolean(hasUscita) && !hasStopLoss);
+            row.getElement().classList.toggle("riga-rossa", Boolean(hasStopLoss));
+          },
           initialSort: [
             { column: "ActiveFrom", dir: "desc" }
           ],
