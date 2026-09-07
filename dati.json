@@ -1,5 +1,5 @@
 {
-  "TimeStamp": "2026-09-07T08:35:14.5369132Z",
+  "TimeStamp": "2026-09-07T16:35:05.8523793Z",
   "Strategie": [
     {
       "Id": "PRT-Acquisto sulla debolezza-20260531140719",
@@ -441,6 +441,21 @@
       "Titolo": "ICOS",
       "Tipo": "Acquisto sulla debolezza",
       "ActiveFrom": "2026-09-03T20:33:39.3530848Z",
+      "Closed": null,
+      "BuyTimeStamp": null,
+      "BuyPrice": null,
+      "Uscita1TimeStamp": null,
+      "Uscita1Price": null,
+      "Uscita2TimeStamp": null,
+      "Uscita2Price": null,
+      "StopLossTimeStamp": null,
+      "StopLossPrice": null
+    },
+    {
+      "Id": "BC-Acquisto sulla forza-20260907163339",
+      "Titolo": "BC",
+      "Tipo": "Acquisto sulla forza",
+      "ActiveFrom": "2026-09-07T16:33:39.3135873Z",
       "Closed": null,
       "BuyTimeStamp": null,
       "BuyPrice": null,
