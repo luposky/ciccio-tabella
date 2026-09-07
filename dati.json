@@ -1,5 +1,5 @@
 {
-  "TimeStamp": "2026-09-03T20:35:02.0311411Z",
+  "TimeStamp": "2026-09-07T08:35:14.5369132Z",
   "Strategie": [
     {
       "Id": "PRT-Acquisto sulla debolezza-20260531140719",
@@ -11,8 +11,8 @@
       "BuyPrice": 6.65,
       "Uscita1TimeStamp": "2026-08-05T07:30:00Z",
       "Uscita1Price": 7.50,
-      "Uscita2TimeStamp": null,
-      "Uscita2Price": null,
+      "Uscita2TimeStamp": "2026-09-07T07:00:00Z",
+      "Uscita2Price": 7.90,
       "StopLossTimeStamp": null,
       "StopLossPrice": null
     },
