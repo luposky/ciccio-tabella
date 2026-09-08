@@ -1,5 +1,5 @@
 {
-  "TimeStamp": "2026-09-07T16:35:05.8523793Z",
+  "TimeStamp": "2026-09-08T14:35:09.4531272Z",
   "Strategie": [
     {
       "Id": "PRT-Acquisto sulla debolezza-20260531140719",
@@ -135,21 +135,6 @@
       "Uscita2Price": null,
       "StopLossTimeStamp": null,
       "StopLossPrice": null
-    },
-    {
-      "Id": "ACE-Acquisto sulla forza-20260531140719",
-      "Titolo": "ACE",
-      "Tipo": "Acquisto sulla forza",
-      "ActiveFrom": "2026-05-31T14:07:19.5023932Z",
-      "Closed": null,
-      "BuyTimeStamp": "2026-06-01T07:00:00Z",
-      "BuyPrice": 23.00,
-      "Uscita1TimeStamp": null,
-      "Uscita1Price": null,
-      "Uscita2TimeStamp": null,
-      "Uscita2Price": null,
-      "StopLossTimeStamp": "2026-09-02T11:30:00Z",
-      "StopLossPrice": 20.50
     },
     {
       "Id": "HER-Acquisto sulla debolezza-20260610063511",
@@ -437,10 +422,10 @@
       "StopLossPrice": null
     },
     {
-      "Id": "ICOS-Acquisto sulla debolezza-20260903203339",
-      "Titolo": "ICOS",
-      "Tipo": "Acquisto sulla debolezza",
-      "ActiveFrom": "2026-09-03T20:33:39.3530848Z",
+      "Id": "BC-Acquisto sulla forza-20260907163339",
+      "Titolo": "BC",
+      "Tipo": "Acquisto sulla forza",
+      "ActiveFrom": "2026-09-07T16:33:39.3135873Z",
       "Closed": null,
       "BuyTimeStamp": null,
       "BuyPrice": null,
@@ -452,10 +437,10 @@
       "StopLossPrice": null
     },
     {
-      "Id": "BC-Acquisto sulla forza-20260907163339",
-      "Titolo": "BC",
-      "Tipo": "Acquisto sulla forza",
-      "ActiveFrom": "2026-09-07T16:33:39.3135873Z",
+      "Id": "TGYM-Acquisto sulla debolezza-20260908143346",
+      "Titolo": "TGYM",
+      "Tipo": "Acquisto sulla debolezza",
+      "ActiveFrom": "2026-09-08T14:33:46.0222462Z",
       "Closed": null,
       "BuyTimeStamp": null,
       "BuyPrice": null,
@@ -817,6 +802,36 @@
       "Tipo": "Acquisto sulla forza",
       "ActiveFrom": "2026-07-02T06:33:43.9070893Z",
       "Closed": "2026-08-24T16:33:38.9021314Z",
+      "BuyTimeStamp": null,
+      "BuyPrice": null,
+      "Uscita1TimeStamp": null,
+      "Uscita1Price": null,
+      "Uscita2TimeStamp": null,
+      "Uscita2Price": null,
+      "StopLossTimeStamp": null,
+      "StopLossPrice": null
+    },
+    {
+      "Id": "ACE-Acquisto sulla forza-20260531140719",
+      "Titolo": "ACE",
+      "Tipo": "Acquisto sulla forza",
+      "ActiveFrom": "2026-05-31T14:07:19.5023932Z",
+      "Closed": "2026-09-08T14:33:46.0222462Z",
+      "BuyTimeStamp": "2026-06-01T07:00:00Z",
+      "BuyPrice": 23.00,
+      "Uscita1TimeStamp": null,
+      "Uscita1Price": null,
+      "Uscita2TimeStamp": null,
+      "Uscita2Price": null,
+      "StopLossTimeStamp": "2026-09-02T11:30:00Z",
+      "StopLossPrice": 20.50
+    },
+    {
+      "Id": "ICOS-Acquisto sulla debolezza-20260903203339",
+      "Titolo": "ICOS",
+      "Tipo": "Acquisto sulla debolezza",
+      "ActiveFrom": "2026-09-03T20:33:39.3530848Z",
+      "Closed": "2026-09-08T14:33:46.0222462Z",
       "BuyTimeStamp": null,
       "BuyPrice": null,
       "Uscita1TimeStamp": null,
