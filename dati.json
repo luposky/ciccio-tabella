@@ -1,5 +1,5 @@
 {
-  "TimeStamp": "2026-09-08T14:35:09.4531272Z",
+  "TimeStamp": "2026-09-09T16:35:05.7141136Z",
   "Strategie": [
     {
       "Id": "PRT-Acquisto sulla debolezza-20260531140719",
@@ -118,8 +118,8 @@
       "Uscita1Price": null,
       "Uscita2TimeStamp": null,
       "Uscita2Price": null,
-      "StopLossTimeStamp": null,
-      "StopLossPrice": null
+      "StopLossTimeStamp": "2026-09-09T15:00:00Z",
+      "StopLossPrice": 45.00
     },
     {
       "Id": "REC-Acquisto sulla forza-20260531140719",
@@ -193,8 +193,8 @@
       "Uscita1Price": null,
       "Uscita2TimeStamp": null,
       "Uscita2Price": null,
-      "StopLossTimeStamp": null,
-      "StopLossPrice": null
+      "StopLossTimeStamp": "2026-09-09T14:15:00Z",
+      "StopLossPrice": 5.50
     },
     {
       "Id": "BRE-Acquisto sulla debolezza-20260629063351",
