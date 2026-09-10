@@ -1,21 +1,6 @@
 {
-  "TimeStamp": "2026-09-09T16:35:05.7141136Z",
+  "TimeStamp": "2026-09-10T16:35:19.6787211Z",
   "Strategie": [
-    {
-      "Id": "PRT-Acquisto sulla debolezza-20260531140719",
-      "Titolo": "PRT",
-      "Tipo": "Acquisto sulla debolezza",
-      "ActiveFrom": "2026-05-31T14:07:19.5023932Z",
-      "Closed": null,
-      "BuyTimeStamp": "2026-06-23T07:30:00Z",
-      "BuyPrice": 6.65,
-      "Uscita1TimeStamp": "2026-08-05T07:30:00Z",
-      "Uscita1Price": 7.50,
-      "Uscita2TimeStamp": "2026-09-07T07:00:00Z",
-      "Uscita2Price": 7.90,
-      "StopLossTimeStamp": null,
-      "StopLossPrice": null
-    },
     {
       "Id": "CPR-Acquisto sulla debolezza-20260531140719",
       "Titolo": "CPR",
@@ -107,21 +92,6 @@
       "StopLossPrice": null
     },
     {
-      "Id": "MONC-Acquisto sulla debolezza-20260531140719",
-      "Titolo": "MONC",
-      "Tipo": "Acquisto sulla debolezza",
-      "ActiveFrom": "2026-05-31T14:07:19.5023932Z",
-      "Closed": null,
-      "BuyTimeStamp": "2026-07-23T07:15:00Z",
-      "BuyPrice": 47.50,
-      "Uscita1TimeStamp": null,
-      "Uscita1Price": null,
-      "Uscita2TimeStamp": null,
-      "Uscita2Price": null,
-      "StopLossTimeStamp": "2026-09-09T15:00:00Z",
-      "StopLossPrice": 45.00
-    },
-    {
       "Id": "REC-Acquisto sulla forza-20260531140719",
       "Titolo": "REC",
       "Tipo": "Acquisto sulla forza",
@@ -182,21 +152,6 @@
       "StopLossPrice": null
     },
     {
-      "Id": "SRG-Acquisto sulla debolezza-20260623183646",
-      "Titolo": "SRG",
-      "Tipo": "Acquisto sulla debolezza",
-      "ActiveFrom": "2026-06-23T18:36:46.8941368Z",
-      "Closed": null,
-      "BuyTimeStamp": "2026-06-24T07:00:00Z",
-      "BuyPrice": 6.20,
-      "Uscita1TimeStamp": null,
-      "Uscita1Price": null,
-      "Uscita2TimeStamp": null,
-      "Uscita2Price": null,
-      "StopLossTimeStamp": "2026-09-09T14:15:00Z",
-      "StopLossPrice": 5.50
-    },
-    {
       "Id": "BRE-Acquisto sulla debolezza-20260629063351",
       "Titolo": "BRE",
       "Tipo": "Acquisto sulla debolezza",
@@ -223,8 +178,8 @@
       "Uscita1Price": null,
       "Uscita2TimeStamp": null,
       "Uscita2Price": null,
-      "StopLossTimeStamp": null,
-      "StopLossPrice": null
+      "StopLossTimeStamp": "2026-09-10T14:45:00Z",
+      "StopLossPrice": 27.00
     },
     {
       "Id": "CEM-Acquisto sulla debolezza-20260701063402",
@@ -422,10 +377,25 @@
       "StopLossPrice": null
     },
     {
-      "Id": "BC-Acquisto sulla forza-20260907163339",
-      "Titolo": "BC",
-      "Tipo": "Acquisto sulla forza",
-      "ActiveFrom": "2026-09-07T16:33:39.3135873Z",
+      "Id": "TGYM-Acquisto sulla debolezza-20260908143346",
+      "Titolo": "TGYM",
+      "Tipo": "Acquisto sulla debolezza",
+      "ActiveFrom": "2026-09-08T14:33:46.0222462Z",
+      "Closed": null,
+      "BuyTimeStamp": "2026-09-10T13:30:00Z",
+      "BuyPrice": 12.20,
+      "Uscita1TimeStamp": null,
+      "Uscita1Price": null,
+      "Uscita2TimeStamp": null,
+      "Uscita2Price": null,
+      "StopLossTimeStamp": null,
+      "StopLossPrice": null
+    },
+    {
+      "Id": "ENAV-Acquisto sulla debolezza-20260910163357",
+      "Titolo": "ENAV",
+      "Tipo": "Acquisto sulla debolezza",
+      "ActiveFrom": "2026-09-10T16:33:57.7312489Z",
       "Closed": null,
       "BuyTimeStamp": null,
       "BuyPrice": null,
@@ -437,10 +407,10 @@
       "StopLossPrice": null
     },
     {
-      "Id": "TGYM-Acquisto sulla debolezza-20260908143346",
-      "Titolo": "TGYM",
+      "Id": "LDO-Acquisto sulla debolezza-20260910163357",
+      "Titolo": "LDO",
       "Tipo": "Acquisto sulla debolezza",
-      "ActiveFrom": "2026-09-08T14:33:46.0222462Z",
+      "ActiveFrom": "2026-09-10T16:33:57.7312489Z",
       "Closed": null,
       "BuyTimeStamp": null,
       "BuyPrice": null,
@@ -840,6 +810,66 @@
       "Uscita2Price": null,
       "StopLossTimeStamp": null,
       "StopLossPrice": null
+    },
+    {
+      "Id": "BC-Acquisto sulla forza-20260907163339",
+      "Titolo": "BC",
+      "Tipo": "Acquisto sulla forza",
+      "ActiveFrom": "2026-09-07T16:33:39.3135873Z",
+      "Closed": "2026-09-10T16:33:57.7312489Z",
+      "BuyTimeStamp": null,
+      "BuyPrice": null,
+      "Uscita1TimeStamp": null,
+      "Uscita1Price": null,
+      "Uscita2TimeStamp": null,
+      "Uscita2Price": null,
+      "StopLossTimeStamp": null,
+      "StopLossPrice": null
+    },
+    {
+      "Id": "PRT-Acquisto sulla debolezza-20260531140719",
+      "Titolo": "PRT",
+      "Tipo": "Acquisto sulla debolezza",
+      "ActiveFrom": "2026-05-31T14:07:19.5023932Z",
+      "Closed": "2026-09-10T16:33:57.7312489Z",
+      "BuyTimeStamp": "2026-06-23T07:30:00Z",
+      "BuyPrice": 6.65,
+      "Uscita1TimeStamp": "2026-08-05T07:30:00Z",
+      "Uscita1Price": 7.50,
+      "Uscita2TimeStamp": "2026-09-07T07:00:00Z",
+      "Uscita2Price": 7.90,
+      "StopLossTimeStamp": null,
+      "StopLossPrice": null
+    },
+    {
+      "Id": "MONC-Acquisto sulla debolezza-20260531140719",
+      "Titolo": "MONC",
+      "Tipo": "Acquisto sulla debolezza",
+      "ActiveFrom": "2026-05-31T14:07:19.5023932Z",
+      "Closed": "2026-09-10T16:33:57.7312489Z",
+      "BuyTimeStamp": "2026-07-23T07:15:00Z",
+      "BuyPrice": 47.50,
+      "Uscita1TimeStamp": null,
+      "Uscita1Price": null,
+      "Uscita2TimeStamp": null,
+      "Uscita2Price": null,
+      "StopLossTimeStamp": "2026-09-09T15:00:00Z",
+      "StopLossPrice": 45.00
+    },
+    {
+      "Id": "SRG-Acquisto sulla debolezza-20260623183646",
+      "Titolo": "SRG",
+      "Tipo": "Acquisto sulla debolezza",
+      "ActiveFrom": "2026-06-23T18:36:46.8941368Z",
+      "Closed": "2026-09-10T16:33:57.7312489Z",
+      "BuyTimeStamp": "2026-06-24T07:00:00Z",
+      "BuyPrice": 6.20,
+      "Uscita1TimeStamp": null,
+      "Uscita1Price": null,
+      "Uscita2TimeStamp": null,
+      "Uscita2Price": null,
+      "StopLossTimeStamp": "2026-09-09T14:15:00Z",
+      "StopLossPrice": 5.50
     }
   ]
 }
