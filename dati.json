@@ -1,5 +1,5 @@
 {
-  "TimeStamp": "2026-09-13T10:35:19.8613373Z",
+  "TimeStamp": "2026-09-14T08:34:57.3420133Z",
   "Strategie": [
     {
       "Id": "CPR-Acquisto sulla debolezza-20260531140719",
@@ -373,8 +373,8 @@
       "Uscita1Price": null,
       "Uscita2TimeStamp": null,
       "Uscita2Price": null,
-      "StopLossTimeStamp": null,
-      "StopLossPrice": null
+      "StopLossTimeStamp": "2026-09-14T07:00:00Z",
+      "StopLossPrice": 8.50
     },
     {
       "Id": "TGYM-Acquisto sulla debolezza-20260908143346",
