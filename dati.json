@@ -1,5 +1,5 @@
 {
-  "TimeStamp": "2026-09-15T16:34:59.366642Z",
+  "TimeStamp": "2026-09-16T16:34:59.822038Z",
   "Strategie": [
     {
       "Id": "CPR-Acquisto sulla debolezza-20260531140719",
@@ -116,8 +116,8 @@
       "BuyPrice": 21.30,
       "Uscita1TimeStamp": "2026-07-27T07:00:00Z",
       "Uscita1Price": 23.00,
-      "Uscita2TimeStamp": null,
-      "Uscita2Price": null,
+      "Uscita2TimeStamp": "2026-08-17T07:00:00Z",
+      "Uscita2Price": 24.00,
       "StopLossTimeStamp": null,
       "StopLossPrice": null
     },
@@ -381,6 +381,21 @@
       "Titolo": "LDO",
       "Tipo": "Acquisto sulla debolezza",
       "ActiveFrom": "2026-09-10T16:33:57.7312489Z",
+      "Closed": null,
+      "BuyTimeStamp": null,
+      "BuyPrice": null,
+      "Uscita1TimeStamp": null,
+      "Uscita1Price": null,
+      "Uscita2TimeStamp": null,
+      "Uscita2Price": null,
+      "StopLossTimeStamp": null,
+      "StopLossPrice": null
+    },
+    {
+      "Id": "WBD-Acquisto sulla debolezza-20260916163344",
+      "Titolo": "WBD",
+      "Tipo": "Acquisto sulla debolezza",
+      "ActiveFrom": "2026-09-16T16:33:44.9592038Z",
       "Closed": null,
       "BuyTimeStamp": null,
       "BuyPrice": null,
