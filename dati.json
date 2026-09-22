@@ -1,5 +1,5 @@
 {
-  "TimeStamp": "2026-09-18T12:34:57.7040309Z",
+  "TimeStamp": "2026-09-22T16:35:08.604401Z",
   "Strategie": [
     {
       "Id": "CPR-Acquisto sulla debolezza-20260531140719",
@@ -90,21 +90,6 @@
       "Uscita2Price": null,
       "StopLossTimeStamp": "2026-09-15T07:00:00Z",
       "StopLossPrice": 3.55
-    },
-    {
-      "Id": "BMED-Acquisto sulla forza-20260622063654",
-      "Titolo": "BMED",
-      "Tipo": "Acquisto sulla forza",
-      "ActiveFrom": "2026-06-22T06:36:54.6555521Z",
-      "Closed": null,
-      "BuyTimeStamp": "2026-06-29T14:00:00Z",
-      "BuyPrice": 21.30,
-      "Uscita1TimeStamp": "2026-07-27T07:00:00Z",
-      "Uscita1Price": 23.00,
-      "Uscita2TimeStamp": "2026-08-17T07:00:00Z",
-      "Uscita2Price": 24.00,
-      "StopLossTimeStamp": null,
-      "StopLossPrice": null
     },
     {
       "Id": "IRE-Acquisto sulla debolezza-20260623063647",
@@ -384,6 +369,66 @@
       "Closed": null,
       "BuyTimeStamp": "2026-09-18T11:15:00Z",
       "BuyPrice": 1.95,
+      "Uscita1TimeStamp": null,
+      "Uscita1Price": null,
+      "Uscita2TimeStamp": null,
+      "Uscita2Price": null,
+      "StopLossTimeStamp": null,
+      "StopLossPrice": null
+    },
+    {
+      "Id": "AMP-Acquisto sulla debolezza-20260922163348",
+      "Titolo": "AMP",
+      "Tipo": "Acquisto sulla debolezza",
+      "ActiveFrom": "2026-09-22T16:33:48.8763713Z",
+      "Closed": null,
+      "BuyTimeStamp": null,
+      "BuyPrice": null,
+      "Uscita1TimeStamp": null,
+      "Uscita1Price": null,
+      "Uscita2TimeStamp": null,
+      "Uscita2Price": null,
+      "StopLossTimeStamp": null,
+      "StopLossPrice": null
+    },
+    {
+      "Id": "BZU-Acquisto sulla debolezza-20260922163348",
+      "Titolo": "BZU",
+      "Tipo": "Acquisto sulla debolezza",
+      "ActiveFrom": "2026-09-22T16:33:48.8763713Z",
+      "Closed": null,
+      "BuyTimeStamp": null,
+      "BuyPrice": null,
+      "Uscita1TimeStamp": null,
+      "Uscita1Price": null,
+      "Uscita2TimeStamp": null,
+      "Uscita2Price": null,
+      "StopLossTimeStamp": null,
+      "StopLossPrice": null
+    },
+    {
+      "Id": "ERG-Acquisto sulla forza-20260922163348",
+      "Titolo": "ERG",
+      "Tipo": "Acquisto sulla forza",
+      "ActiveFrom": "2026-09-22T16:33:48.8763713Z",
+      "Closed": null,
+      "BuyTimeStamp": null,
+      "BuyPrice": null,
+      "Uscita1TimeStamp": null,
+      "Uscita1Price": null,
+      "Uscita2TimeStamp": null,
+      "Uscita2Price": null,
+      "StopLossTimeStamp": null,
+      "StopLossPrice": null
+    },
+    {
+      "Id": "GRN-Acquisto sulla debolezza-20260922163348",
+      "Titolo": "GRN",
+      "Tipo": "Acquisto sulla debolezza",
+      "ActiveFrom": "2026-09-22T16:33:48.8763713Z",
+      "Closed": null,
+      "BuyTimeStamp": null,
+      "BuyPrice": null,
       "Uscita1TimeStamp": null,
       "Uscita1Price": null,
       "Uscita2TimeStamp": null,
@@ -885,6 +930,21 @@
       "Uscita2Price": null,
       "StopLossTimeStamp": "2026-06-26T10:15:00Z",
       "StopLossPrice": 2.80
+    },
+    {
+      "Id": "BMED-Acquisto sulla forza-20260622063654",
+      "Titolo": "BMED",
+      "Tipo": "Acquisto sulla forza",
+      "ActiveFrom": "2026-06-22T06:36:54.6555521Z",
+      "Closed": "2026-09-22T16:33:48.8763713Z",
+      "BuyTimeStamp": "2026-06-29T14:00:00Z",
+      "BuyPrice": 21.30,
+      "Uscita1TimeStamp": "2026-07-27T07:00:00Z",
+      "Uscita1Price": 23.00,
+      "Uscita2TimeStamp": "2026-08-17T07:00:00Z",
+      "Uscita2Price": 24.00,
+      "StopLossTimeStamp": null,
+      "StopLossPrice": null
     }
   ]
 }
