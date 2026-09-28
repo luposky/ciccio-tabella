@@ -1,5 +1,5 @@
 {
-  "TimeStamp": "2026-09-23T14:38:49.2676433Z",
+  "TimeStamp": "2026-09-28T16:35:12.4534055Z",
   "Strategie": [
     {
       "Id": "CPR-Acquisto sulla debolezza-20260531140719",
@@ -426,6 +426,21 @@
       "Titolo": "GRN",
       "Tipo": "Acquisto sulla debolezza",
       "ActiveFrom": "2026-09-22T16:33:48.8763713Z",
+      "Closed": null,
+      "BuyTimeStamp": null,
+      "BuyPrice": null,
+      "Uscita1TimeStamp": null,
+      "Uscita1Price": null,
+      "Uscita2TimeStamp": null,
+      "Uscita2Price": null,
+      "StopLossTimeStamp": null,
+      "StopLossPrice": null
+    },
+    {
+      "Id": "CORE-Acquisto sulla debolezza-20260928163348",
+      "Titolo": "CORE",
+      "Tipo": "Acquisto sulla debolezza",
+      "ActiveFrom": "2026-09-28T16:33:48.1809993Z",
       "Closed": null,
       "BuyTimeStamp": null,
       "BuyPrice": null,
