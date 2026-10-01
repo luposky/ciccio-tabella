@@ -1,5 +1,5 @@
 {
-  "TimeStamp": "2026-10-01T08:35:08.3455311Z",
+  "TimeStamp": "2026-10-01T16:35:08.9858154Z",
   "Strategie": [
     {
       "Id": "CPR-Acquisto sulla debolezza-20260531140719",
@@ -167,21 +167,6 @@
       "StopLossPrice": null
     },
     {
-      "Id": "UNI-Acquisto sulla forza-20260702063343",
-      "Titolo": "UNI",
-      "Tipo": "Acquisto sulla forza",
-      "ActiveFrom": "2026-07-02T06:33:43.9070893Z",
-      "Closed": null,
-      "BuyTimeStamp": null,
-      "BuyPrice": null,
-      "Uscita1TimeStamp": null,
-      "Uscita1Price": null,
-      "Uscita2TimeStamp": null,
-      "Uscita2Price": null,
-      "StopLossTimeStamp": null,
-      "StopLossPrice": null
-    },
-    {
       "Id": "PIRC-Acquisto sulla forza-20260702163348",
       "Titolo": "PIRC",
       "Tipo": "Acquisto sulla forza",
@@ -240,21 +225,6 @@
       "Uscita2Price": null,
       "StopLossTimeStamp": "2026-07-28T13:45:00Z",
       "StopLossPrice": 115.00
-    },
-    {
-      "Id": "FBK-Acquisto sulla forza-20260723063345",
-      "Titolo": "FBK",
-      "Tipo": "Acquisto sulla forza",
-      "ActiveFrom": "2026-07-23T06:33:45.7126368Z",
-      "Closed": null,
-      "BuyTimeStamp": "2026-07-23T10:15:00Z",
-      "BuyPrice": 23.50,
-      "Uscita1TimeStamp": null,
-      "Uscita1Price": null,
-      "Uscita2TimeStamp": null,
-      "Uscita2Price": null,
-      "StopLossTimeStamp": "2026-10-01T08:00:00Z",
-      "StopLossPrice": 21.50
     },
     {
       "Id": "STMMI-Acquisto sulla debolezza-20260805063357",
@@ -352,8 +322,8 @@
       "Tipo": "Acquisto sulla debolezza",
       "ActiveFrom": "2026-09-10T16:33:57.7312489Z",
       "Closed": null,
-      "BuyTimeStamp": null,
-      "BuyPrice": null,
+      "BuyTimeStamp": "2026-10-01T14:45:00Z",
+      "BuyPrice": 48.00,
       "Uscita1TimeStamp": null,
       "Uscita1Price": null,
       "Uscita2TimeStamp": null,
@@ -973,6 +943,36 @@
       "Uscita1Price": 23.00,
       "Uscita2TimeStamp": "2026-08-17T07:00:00Z",
       "Uscita2Price": 24.00,
+      "StopLossTimeStamp": null,
+      "StopLossPrice": null
+    },
+    {
+      "Id": "FBK-Acquisto sulla forza-20260723063345",
+      "Titolo": "FBK",
+      "Tipo": "Acquisto sulla forza",
+      "ActiveFrom": "2026-07-23T06:33:45.7126368Z",
+      "Closed": "2026-10-01T16:33:48.1082453Z",
+      "BuyTimeStamp": "2026-07-23T10:15:00Z",
+      "BuyPrice": 23.50,
+      "Uscita1TimeStamp": null,
+      "Uscita1Price": null,
+      "Uscita2TimeStamp": null,
+      "Uscita2Price": null,
+      "StopLossTimeStamp": "2026-10-01T08:00:00Z",
+      "StopLossPrice": 21.50
+    },
+    {
+      "Id": "UNI-Acquisto sulla forza-20260702063343",
+      "Titolo": "UNI",
+      "Tipo": "Acquisto sulla forza",
+      "ActiveFrom": "2026-07-02T06:33:43.9070893Z",
+      "Closed": "2026-10-01T16:33:48.1082453Z",
+      "BuyTimeStamp": null,
+      "BuyPrice": null,
+      "Uscita1TimeStamp": null,
+      "Uscita1Price": null,
+      "Uscita2TimeStamp": null,
+      "Uscita2Price": null,
       "StopLossTimeStamp": null,
       "StopLossPrice": null
     }
