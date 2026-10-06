@@ -1,5 +1,5 @@
 {
-  "TimeStamp": "2026-10-05T16:35:08.3004306Z",
+  "TimeStamp": "2026-10-06T16:35:16.3325329Z",
   "Strategie": [
     {
       "Id": "CPR-Acquisto sulla debolezza-20260531140719",
@@ -426,6 +426,21 @@
       "Titolo": "XHS",
       "Tipo": "Acquisto sulla debolezza",
       "ActiveFrom": "2026-10-05T16:33:47.8482984Z",
+      "Closed": null,
+      "BuyTimeStamp": null,
+      "BuyPrice": null,
+      "Uscita1TimeStamp": null,
+      "Uscita1Price": null,
+      "Uscita2TimeStamp": null,
+      "Uscita2Price": null,
+      "StopLossTimeStamp": null,
+      "StopLossPrice": null
+    },
+    {
+      "Id": "CDG-Acquisto sulla forza-20261006163347",
+      "Titolo": "CDG",
+      "Tipo": "Acquisto sulla forza",
+      "ActiveFrom": "2026-10-06T16:33:47.7164084Z",
       "Closed": null,
       "BuyTimeStamp": null,
       "BuyPrice": null,
