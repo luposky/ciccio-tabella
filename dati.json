@@ -1,5 +1,5 @@
 {
-  "TimeStamp": "2026-10-08T10:35:15.8328515Z",
+  "TimeStamp": "2026-10-09T14:35:19.2959372Z",
   "Strategie": [
     {
       "Id": "CPR-Acquisto sulla debolezza-20260531140719",
@@ -144,8 +144,8 @@
       "Closed": null,
       "BuyTimeStamp": "2026-07-21T08:00:00Z",
       "BuyPrice": 6.10,
-      "Uscita1TimeStamp": null,
-      "Uscita1Price": null,
+      "Uscita1TimeStamp": "2026-10-09T14:00:00Z",
+      "Uscita1Price": 7.00,
       "Uscita2TimeStamp": null,
       "Uscita2Price": null,
       "StopLossTimeStamp": null,
@@ -339,8 +339,8 @@
       "Closed": null,
       "BuyTimeStamp": "2026-09-23T07:00:00Z",
       "BuyPrice": 11.70,
-      "Uscita1TimeStamp": null,
-      "Uscita1Price": null,
+      "Uscita1TimeStamp": "2026-10-09T13:30:00Z",
+      "Uscita1Price": 12.70,
       "Uscita2TimeStamp": null,
       "Uscita2Price": null,
       "StopLossTimeStamp": null,
