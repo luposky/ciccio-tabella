@@ -1,5 +1,5 @@
 {
-  "TimeStamp": "2026-10-14T08:36:28.3810668Z",
+  "TimeStamp": "2026-10-14T16:35:51.989533Z",
   "Strategie": [
     {
       "Id": "CPR-Acquisto sulla debolezza-20260531140719",
@@ -459,6 +459,21 @@
       "Closed": null,
       "BuyTimeStamp": "2026-10-14T07:00:00Z",
       "BuyPrice": 24.50,
+      "Uscita1TimeStamp": null,
+      "Uscita1Price": null,
+      "Uscita2TimeStamp": null,
+      "Uscita2Price": null,
+      "StopLossTimeStamp": null,
+      "StopLossPrice": null
+    },
+    {
+      "Id": "SRG-Acquisto sulla debolezza-20261014163422",
+      "Titolo": "SRG",
+      "Tipo": "Acquisto sulla debolezza",
+      "ActiveFrom": "2026-10-14T16:34:22.0553389Z",
+      "Closed": null,
+      "BuyTimeStamp": null,
+      "BuyPrice": null,
       "Uscita1TimeStamp": null,
       "Uscita1Price": null,
       "Uscita2TimeStamp": null,
