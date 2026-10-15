@@ -1,5 +1,5 @@
 {
-  "TimeStamp": "2026-10-15T10:35:21.2648192Z",
+  "TimeStamp": "2026-10-15T14:35:45.2213009Z",
   "Strategie": [
     {
       "Id": "CPR-Acquisto sulla debolezza-20260531140719",
@@ -163,8 +163,8 @@
       "Uscita1Price": null,
       "Uscita2TimeStamp": null,
       "Uscita2Price": null,
-      "StopLossTimeStamp": null,
-      "StopLossPrice": null
+      "StopLossTimeStamp": "2026-10-15T13:30:00Z",
+      "StopLossPrice": 75.00
     },
     {
       "Id": "RWAY-Acquisto sulla debolezza-20260709163342",
