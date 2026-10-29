@@ -1,5 +1,5 @@
 {
-  "TimeStamp": "2026-10-28T08:35:31.8548727Z",
+  "TimeStamp": "2026-10-29T08:35:34.4215438Z",
   "Strategie": [
     {
       "Id": "FCT-Acquisto sulla debolezza-20260531140719",
@@ -189,8 +189,8 @@
       "Closed": null,
       "BuyTimeStamp": "2026-09-10T13:30:00Z",
       "BuyPrice": 12.20,
-      "Uscita1TimeStamp": null,
-      "Uscita1Price": null,
+      "Uscita1TimeStamp": "2026-10-28T15:45:00Z",
+      "Uscita1Price": 14.00,
       "Uscita2TimeStamp": null,
       "Uscita2Price": null,
       "StopLossTimeStamp": null,
@@ -489,6 +489,21 @@
       "Closed": null,
       "BuyTimeStamp": "2026-10-28T08:15:00Z",
       "BuyPrice": 74.00,
+      "Uscita1TimeStamp": null,
+      "Uscita1Price": null,
+      "Uscita2TimeStamp": null,
+      "Uscita2Price": null,
+      "StopLossTimeStamp": null,
+      "StopLossPrice": null
+    },
+    {
+      "Id": "HER-Acquisto sulla forza-20261029083357",
+      "Titolo": "HER",
+      "Tipo": "Acquisto sulla forza",
+      "ActiveFrom": "2026-10-29T08:33:57.0135174Z",
+      "Closed": null,
+      "BuyTimeStamp": null,
+      "BuyPrice": null,
       "Uscita1TimeStamp": null,
       "Uscita1Price": null,
       "Uscita2TimeStamp": null,
