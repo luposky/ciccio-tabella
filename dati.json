@@ -1,5 +1,5 @@
 {
-  "TimeStamp": "2026-10-30T10:35:15.6001341Z",
+  "TimeStamp": "2026-11-02T12:35:33.9164017Z",
   "Strategie": [
     {
       "Id": "FCT-Acquisto sulla debolezza-20260531140719",
@@ -502,8 +502,8 @@
       "Tipo": "Acquisto sulla forza",
       "ActiveFrom": "2026-10-29T08:33:57.0135174Z",
       "Closed": null,
-      "BuyTimeStamp": null,
-      "BuyPrice": null,
+      "BuyTimeStamp": "2026-11-02T08:15:00Z",
+      "BuyPrice": 3.60,
       "Uscita1TimeStamp": null,
       "Uscita1Price": null,
       "Uscita2TimeStamp": null,
